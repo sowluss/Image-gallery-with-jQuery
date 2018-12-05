@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0; 
+  background: rgba(12, 11, 11, 0.783);
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+  height: 100vh;
+  display: flex;
+}
+
+.col {
+text-align: center;
+margin: 0 auto;
+padding: 10px;
+}
+
+.box img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.full-image {
+  padding: 20px;
+}
+
+.full-image img {
+  width: 100%;
+  animation: ani .5s linear 1;
+  border-radius: 7px;
+  border: 1px solid #ddd;
+}
+
+@keyframes ani {
+  0% {opacity: .1;}
+  100% {opacity: 1;}
+}
